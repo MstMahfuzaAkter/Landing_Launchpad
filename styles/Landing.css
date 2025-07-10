@@ -1,35 +1,178 @@
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     text-align: center;
     justify-content: space-between;
     margin: 0 200px;
 
 }
+
 nav ul li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
 
 }
-.btn-primary{
-    background-color:#4E47FF;
+
+.btn-primary {
+    background-color: #4E47FF;
     color: #FFFFFF;
     font-weight: bold;
-    padding: 10px 25px;
+    padding: 5px 15px;
     cursor: pointer;
     border-radius: 5px;
     font-size: 20px;
     border: none;
 }
-.primary-color{
+
+.primary-color {
     color: #4E47FF;
+}
+
+.banner {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+header {
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+}
+
+.action-container {
+    display: flex;
+    gap: 70px;
+    padding: 50px;
+    text-align: left;
+    margin: 0 200px;
+
+}
+
+.img-container {
+    border-radius: 48px;
+    height: 300;
+    width: 403;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.stats-section {
+    background-color: #150aac52;
+    padding: 4px 2px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 48px;
+}
+
+.stats-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+}
+
+.stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.stat h3 {
+    font-size: 2.2rem;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.stat p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+.Review {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.feedback-container {
+    display: flex;
+    gap: 24px;
+    padding: 50px;
+}
+
+.feedback {
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.Review-img {
+
+    border-radius: 50%;
+}
+
+.ready {
+    background-color: #edecf28b;
+    padding: 4px 2px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 48px;
+}
+
+.ready-container {
+    text-align: center;
+    gap: 70px;
+}
+
+.ready-top {
+    padding: 40px;
+}
+
+.touch-container{
+    display: flex;
+    justify-content: space-around;
+     text-align: center;
+    margin: 0 200px;
+}
+.contact-section {
+  margin: auto;
+  padding: 2rem;
+}
+
+.contact-section h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.btn-primary:hover {
+  background-color: #d62839;
 }
