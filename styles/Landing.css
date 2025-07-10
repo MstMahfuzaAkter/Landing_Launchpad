@@ -1,0 +1,35 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 200px;
+
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.btn-primary{
+    background-color:#4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.primary-color{
+    color: #4E47FF;
+}
