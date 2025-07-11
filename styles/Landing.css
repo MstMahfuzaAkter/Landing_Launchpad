@@ -217,6 +217,9 @@ textarea {
 .btn-primary:hover {
     background-color: #d62839;
 }
+.btn-primary-get:hover {
+    background-color: #d62839;
+}
 
 .touch-container h1 {
     text-align: left;
@@ -235,6 +238,9 @@ textarea {
     color: #4E47FF;
     font-weight: bolder;
     font-size:100px;
+}
+.logo:hover{
+    color: brown;
 }
 
 .footer p {
