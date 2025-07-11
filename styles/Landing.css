@@ -55,14 +55,16 @@ nav ul li a {
     color: #4E47FF;
     text-align: center;
 }
-.banner-contain p{
+
+.banner-contain p {
     margin-bottom: 5px;
 }
+
 .banner {
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
-    
+
 }
 
 
@@ -180,7 +182,8 @@ nav ul li a {
     font-family: 'Segoe UI', sans-serif;
     border-radius: 48px;
 }
-.ready-title{
+
+.ready-title {
     font-size: 30px;
 }
 
@@ -201,7 +204,7 @@ nav ul li a {
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    
+
 }
 
 .contact-section {
