@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #ebe5e53a;
+}
+
 .raleway-normal {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -5,11 +15,14 @@
     font-style: normal;
 }
 
-.nav-container {
+nav {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0px 200px;
+    padding: 40px 100px;
+
+
 
 }
 
@@ -45,11 +58,11 @@ nav ul li a {
     font-weight: bolder;
 }
 
-header {
+.header {
     background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 30px;
+    height: 50vh;
 }
 
 .action-container {
@@ -108,6 +121,7 @@ header {
 .Review {
     display: flex;
     flex-wrap: wrap;
+    text-align: left;
 
 }
 
@@ -125,12 +139,14 @@ header {
 
 .Review-img {
 
+    width: 60px;
+    height: 40px;
     border-radius: 50%;
 }
 
 .ready {
-    background-color: #edecf28b;
-    padding: 4px 2px;
+    background-color: #FFFFFF;
+    padding: 4px 4px;
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
     border-radius: 48px;
@@ -145,34 +161,76 @@ header {
     padding: 40px;
 }
 
-.touch-container{
+.touch-container {
     display: flex;
     justify-content: space-around;
-     text-align: center;
+    text-align: center;
     margin: 0 200px;
 }
+
 .contact-section {
-  margin: auto;
-  padding: 2rem;
+    margin: auto;
+    padding: 2rem;
 }
 
 .contact-section h1 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-family: inherit;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.form-group {
+    text-align: left;
 }
 
 .btn-primary:hover {
-  background-color: #d62839;
+    background-color: #d62839;
+}
+
+.touch-container h1 {
+    text-align: left;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+.logo {
+    color: #4E47FF;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.footer p {
+    justify-content: left;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #9b9a9a;
+    gap: 20px;
+}
+.footer-nav a:hover{
+    background-color: #d62839;
 }
